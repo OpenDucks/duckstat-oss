@@ -15,7 +15,6 @@ Feel free to contribute to this Project!
 
 - PHP 7.3
 - Apache 2.3
-- 
 
 
 ## How to Install and use it
