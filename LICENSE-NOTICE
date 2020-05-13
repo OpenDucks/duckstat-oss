@@ -1,0 +1,21 @@
+Please do not remove the Copyright notice at the end of each file
+
+We are talking about this:
+"<!-- DO NOT DELETE COPYRIGHT NOTICE BELOW -->
+
+<!--  DuckStat OSS by Duck Developing Studio and the OpenDuck Project  -->
+<!-- 2020 -->"
+
+or
+
+"// DO NOT DELETE COPYRIGHT NOTICE BELOW
+
+/* DuckStat OSS by Duck Developing Studio and the OpenDuck Project */
+#  2020"
+
+or
+
+# DO NOT DELETE COPYRIGHT NOTICE BELOW
+
+# DuckStat OSS by Duck Developing Studio and the OpenDuck Project
+#  2020

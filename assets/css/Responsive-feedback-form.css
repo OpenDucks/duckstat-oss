@@ -1,0 +1,18 @@
+#form-div {
+  background-color: rgb(247,241,241);
+  padding-bottom: 3%;
+  border-radius: 22.2px;
+  box-shadow: 0 0 16px rgba(81, 203, 238, 1);
+}
+
+hr {
+  margin-left: 44px;
+  margin-right: 44px;
+  padding-bottom: 3px;
+  border-radius: 46.2px;
+}
+
+#submit-btn {
+  margin-left: 3%;
+}
+
