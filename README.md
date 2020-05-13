@@ -35,7 +35,7 @@ Step 5: Enjoy!
 
 This section is to answer questions and other stuff!
 
-### How can I contribute? / How can I join OpenDucks=
+### How can I contribute? / How can I join OpenDucks?
 
 You can join the OpenDuck Organisation on GitHub and make a pull request to the testing branch
 
