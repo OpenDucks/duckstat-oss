@@ -42,5 +42,4 @@ If you'd like to join OpenDucks, please go to issues and request it there!
 
 ### What's the "untested" branch?
 
-This branch contains contributions that aren't tested by enough people or are new.
-After they are tested, they'll be merged.
+This branch contains contributions that aren't tested by enough people or are new. After they are tested, they'll be merged.

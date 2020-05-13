@@ -417,9 +417,11 @@ switch($incident) {
                     </div>
                     <div class="col-md-6 item text" style="margin-bottom:150px;">
                         <h3><?php echo $statuspage_title ?></h3>
-                        <p><?php echo $description ?></p> <!-- Change this! -->
-                        <p class="copyright">DuckStat OSS by the OpenDuck Project</p> <!--  You can remove this footer, but please show your love to the community and let it stay in here.  -->
-                                                                            <!--  We hope you love this Open-Source Project  -->
+
+                        <p>This is your Statuspage!</p> <!-- Change this! -->
+                        <p class="copyright">OpenDuck Project</p> <!--  You can remove this footer, but please show your love to the community and let it stay in here.  -->
+                                                                     <!--  We hope you love this Open-Source Project  -->
+
                     </div>                                        <!-- You can also outcomment it and put in your own values -->
                 </div>
             </div>

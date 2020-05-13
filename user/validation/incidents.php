@@ -38,25 +38,27 @@ $file = "app1.ini"; // Set's app1.ini as file for incidents
 $data = <<< DATA
 [incidents]
 
-# This file saves the Incident
 
-# incident_title saves the Incident title, e.g "Server outage in Europe"
-# incident_message saves the message of the incident, e.g. "Due to a overload of our Servers in Europe they are unreachable at the moment."
+; This file saves the Incident
+
+; incident_title saves the Incident title, e.g "Server outage in Europe"
+; incident_message saves the message of the incident, e.g. "Due to a overload of our Servers in Europe they are unreachable at the moment."
 
 
-# incident_color saves the status of your incident.
-# You can choose between:
+; incident_color saves the status of your incident.
+; You can choose between:
 
-# alert alert-warning (Yellow)
-# alert alert-danger (Red)
-# alert alert-success (Green)
-# alert alert-info (Blue)
-# alert alert-dark
-#
-# By default it is "alert alert-success" so it's Green!
+; alert alert-warning (Yellow)
+; alert alert-danger (Red)
+; alert alert-success (Green)
+; alert alert-info (Blue)
+; alert alert-dark
+;
+; By default it is "alert alert-success" so it's Green!
 
-# incident_time saves the time, when you've created the incident.
-# it is saved in the following format: d.m.Y | H:i
+; incident_time saves the time, when you've created the incident.
+; it is saved in the following format: d.m.Y | H:i
+
 
 incident_title = "$incident_title"
 incident_message = "$incident_message"
