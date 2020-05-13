@@ -10,14 +10,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="../assets/css/Features-Blue.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/Header-Blue.css">
     <link rel="stylesheet" href="../assets/css/Login-Form-Clean.css">
     <link rel="stylesheet" href="../assets/css/Login-Form-Dark.css">
-    <link rel="stylesheet" href="../assets/css/Responsive-feedback-form-1.css">
-    <link rel="stylesheet" href="../assets/css/Responsive-feedback-form.css">
-    <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body>

@@ -15,7 +15,6 @@ Feel free to contribute to this Project!
 
 - PHP 7.3
 - Apache 2.3
-- 
 
 
 ## How to Install and use it
@@ -35,9 +34,11 @@ Step 5: Enjoy!
 
 This section is to answer questions and other stuff!
 
-### How can I contribute?
+### How can I contribute? / How can I join OpenDucks?
 
 You can join the OpenDuck Organisation on GitHub and make a pull request to the testing branch
+
+If you'd like to join OpenDucks, please go to issues and request it there!
 
 ### What's the "untested" branch?
 

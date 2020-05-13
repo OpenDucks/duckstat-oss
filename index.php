@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php
+
 # Checks that the files exist, if not, it throws an error and stops the script
 require "user/validation/app.php";
 require "user/validation/app1.php";
@@ -416,9 +417,11 @@ switch($incident) {
                     </div>
                     <div class="col-md-6 item text" style="margin-bottom:150px;">
                         <h3><?php echo $statuspage_title ?></h3>
+
                         <p>This is your Statuspage!</p> <!-- Change this! -->
                         <p class="copyright">OpenDuck Project</p> <!--  You can remove this footer, but please show your love to the community and let it stay in here.  -->
                                                                      <!--  We hope you love this Open-Source Project  -->
+
                     </div>                                        <!-- You can also outcomment it and put in your own values -->
                 </div>
             </div>

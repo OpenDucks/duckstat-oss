@@ -38,6 +38,7 @@ $file = "app1.ini"; // Set's app1.ini as file for incidents
 $data = <<< DATA
 [incidents]
 
+
 ; This file saves the Incident
 
 ; incident_title saves the Incident title, e.g "Server outage in Europe"
@@ -58,12 +59,12 @@ $data = <<< DATA
 ; incident_time saves the time, when you've created the incident.
 ; it is saved in the following format: d.m.Y | H:i
 
+
 incident_title = "$incident_title"
 incident_message = "$incident_message"
 
 incident_color = "$incident_real_color"
 incident_time = "$incident_time"
-
 
 
 

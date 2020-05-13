@@ -2,9 +2,9 @@
 
 # Reads the INI File
 $ini = parse_ini_file("app.ini");
-
+$ds = $ini["ds"];
 # Checks if "description" is set, if not it shows an error. If it is set, it sets the values
-if(isset($ini["description"]) == false) {
+if($ds == null) {
     echo "<p style='alert alert-danger'>An error occured</p>";
 } else {
     $status1 = $ini["status1"];
@@ -17,6 +17,7 @@ if(isset($ini["description"]) == false) {
     $tt3 = $ini["tt3"];
     $tt4 = $ini["tt4"];
     $tt5 = $ini["tt5"];
+    $description = $ini["description"];
 
 };
 

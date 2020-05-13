@@ -185,6 +185,7 @@ $file = "app.ini";
 $data = <<< DATA
 
 [status]
+
 ; Description of your Statuspage must be set, but is not displayed!
 description = "Your site will be saved here!"
 
@@ -206,6 +207,7 @@ statuspage_name = "$company_name";
 ; Closed         |  displays "Closed"
 
 ; The default is "Error retrieving Data"
+
 
 ; Example:
 ;
