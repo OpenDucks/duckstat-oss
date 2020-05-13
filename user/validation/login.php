@@ -6,7 +6,7 @@ $password = $_POST["password1"];
 if(empty($email) || empty($password)) { # If empty
     header("Location: ../login.php?error=nodata"); # it throws you back with an error
 } else {
-    if($email == "" && $password == "") { # Checks if it equals to the values here, for security measures, read the INI file!
+    if($email == base64_decode("YWRtaW5AYWRtaW4uY29t") && $password == base64_decode("YWRtaW4=")) { # Checks if it equals to the values here, for security measures, read the INI file!
         session_start(); # If yes, it saves your session
         $_SESSION["email"] = $email;
         $_SESSION["password"] = $password;

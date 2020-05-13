@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php
+
 # Checks that the files exist, if not, it throws an error and stops the script
 require "user/validation/app.php";
 require "user/validation/app1.php";
@@ -318,23 +319,12 @@ switch($incident) {
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/css/Beautiful-Modern-Looking-Pricing.css">
-    <link rel="stylesheet" href="assets/css/clean-responsive-pricing-1.css">
-    <link rel="stylesheet" href="assets/css/clean-responsive-pricing.css">
-    <link rel="stylesheet" href="assets/css/Effective-Pricing-Cards.css">
     <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="assets/css/Header-Blue-1.css">
     <link rel="stylesheet" href="assets/css/Header-Blue.css">
-    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
     <link rel="stylesheet" href="assets/css/Navigation-Dark-Clean.css">
     <link rel="stylesheet" href="assets/css/Navigation-Menu.css">
-    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
-    <link rel="stylesheet" href="assets/css/Pricing-Grid.css">
-    <link rel="stylesheet" href="assets/css/Pricing-Table-Style-01-1.css">
-    <link rel="stylesheet" href="assets/css/Pricing-Table-Style-01.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/System-Status.css">
 </head>
 
@@ -401,33 +391,6 @@ switch($incident) {
                                 <p class="<?php echo $inc_color ?>"><?php echo $inc_title ?></p>
                                 <div class="latest-update-timestamp"><span><strong><?php echo $inc_time ?></strong></span></div>
                             </div>
-                       <!-- </div>
-                        <div class="card">
-                            <div class="card-body sr-only">
-                                <h3><i class="fa fa-check"></i>Web Server</h3>
-                                <div class="latest-update-timestamp"><span><strong>February 3, 2017 @ 9:35 PM MST</strong></span></div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body" style="background-color: #bee5eb;">
-                                <h3 style="background-color: #bee5eb;"><i class="fa fa-repeat"></i>Datacenter (East)</h3>
-                                <p style="background-color: #bee5eb;">Issues previously reported have been resolved. Datacenter should be available shortly.</p>
-                                <div class="latest-update-timestamp"><span><strong>February 3, 2017 @ 9:45 PM MST</strong></span></div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body" style="background-color: #f5c6cb;">
-                                <h3 style="background-color: rgb(245,198,203);"><i class="fa fa-remove"></i>Datacenter (West)</h3>
-                                <p style="background-color: #f5c6cb;">System unavailable. Technicians have been notified and are working quickly to resolve the issue. Thank you for your patience.</p>
-                                <div class="latest-update-timestamp"><span><strong>February 3, 2017 @ 9:49 PM MST</strong></span></div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body sr-only">
-                                <h3><i class="fa fa-check"></i>Network</h3>
-                                <div class="latest-update-timestamp"><span><strong>February 3, 2017 @ 9:35 PM MST</strong></span></div>
-                            </div>
-                        </div>-->
                         <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
                     </div>
@@ -454,9 +417,9 @@ switch($incident) {
                     </div>
                     <div class="col-md-6 item text" style="margin-bottom:150px;">
                         <h3><?php echo $statuspage_title ?></h3>
-                        <p>This is your Statuspage!</p> <!-- Change this! -->
-                        <p class="copyright">OpenDuck Project</p> <!--  You can remove this footer, but please show your love to the community and let it stay in here.  -->
-                        <p>DuckStat OSS by the OpenDuck Project</p> <!--  We hope you love this Open-Source Project  -->
+                        <p><?php echo $description ?></p> <!-- Change this! -->
+                        <p class="copyright">DuckStat OSS by the OpenDuck Project</p> <!--  You can remove this footer, but please show your love to the community and let it stay in here.  -->
+                                                                            <!--  We hope you love this Open-Source Project  -->
                     </div>                                        <!-- You can also outcomment it and put in your own values -->
                 </div>
             </div>

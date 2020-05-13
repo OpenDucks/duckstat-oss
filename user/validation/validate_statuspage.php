@@ -186,10 +186,34 @@ $data = <<< DATA
 
 [status]
 
+# Description of your Statuspage must be set, but is not displayed!
 description = "Your site will be saved here!"
 
+# The name of your Statuspage will not be displayed! It's saved in another file
 statuspage_name = "$company_name";
 
+# Below you can setup your 5 status slots
+# status1-5 is the status value like "Offline" or "Online"
+# tt1-5 is the status name, like "API" or "Webserver"
+# For status1-5 you can choose from the following values:
+#
+# Online         |  displays "Online"
+# Offline        |  displays "Offline"
+# Investigating  |  displays "Investigating"
+# Recovering     |  displays "Recovering"
+# Maintenance    |  displays "Maintenance"
+# Partial Outage |  displays "Partial Outage"
+# Major Outage   |  displays "Major Outage"
+# Closed         |  displays "Closed"
+
+# The default is "Error retrieving Data"
+
+# Example:
+#
+# [status1]
+#
+# status1 = "Offline"
+# tt1 = "API"
 
 
 [status1]
@@ -218,6 +242,11 @@ status5 = "$data_status5"
 tt5 = "$status5_name"
 
 
+
+# DO NOT DELETE COPYRIGHT NOTICE BELOW
+
+# DuckStat OSS by Duck Developing Studio and the OpenDuck Project
+#  2020
 DATA;
 
 $handle = fopen($file, "w")or die("Couldn't open file: " . $file); // Opens the file for writing, if it couldn't it throws an error
