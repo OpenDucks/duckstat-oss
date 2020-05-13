@@ -38,3 +38,7 @@ This section is to answer questions and other stuff!
 ### How can I contribute?
 
 You can join the OpenDuck Organisation on GitHub and make a pull request to the testing branch
+
+### What's the "untested" branch?
+
+This branch contains contributions that aren't tested by enough people or are new. After they are tested, they'll be merged.
