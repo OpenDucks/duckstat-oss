@@ -31,6 +31,7 @@
                             <li class="nav-item" role="presentation"></li>
                             <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Menu</a>
                                 <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Account</a></div>
+                                <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#site">Site Settings</a></div>
                             </li>
                         </ul>
                         <form class="form-inline mr-auto" target="_self">
@@ -142,7 +143,10 @@
                     document.getElementById("form2").submit();
                 }
             </script>
-        </div></div>
+        </div>
+        <h2 class="text-center">Site Settings</h2>
+        
+        </div>
     <div class="footer-dark">
         <footer>
             <div class="container">
