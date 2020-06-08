@@ -1,5 +1,5 @@
 <?php
-
+require "../../check.php";
 require "app1.php"; # Checks that app1.ini exists, if not it throws error and ends
 
 $file = "app1.ini"; # sets ini file that should be written to

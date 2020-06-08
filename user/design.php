@@ -1,3 +1,6 @@
+<?php
+require "../check.php";
+?>
 <!DOCTYPE html>
 <html>
 
@@ -39,7 +42,7 @@
                         </form><a class="btn btn-light action-button" role="button" href="validation/logout.php">Sign Out</a></div>
                 </div>
             </nav>
-            <?php
+        <?php
             ob_start();
             require "validation/app.ini"; # Checks that the file exists, but doesn't execute it
             ob_end_clean();
@@ -143,8 +146,11 @@
                     document.getElementById("form2").submit();
                 }
             </script>
+            <hr class="text-center">
+                    <h2 class="text-center">Site Settings</h2>
+
+                        <p>Here you can customize your Statuspage!</p>
         </div>
-        <h2 class="text-center">Site Settings</h2>
         
         </div>
     <div class="footer-dark">

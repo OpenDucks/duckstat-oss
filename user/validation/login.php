@@ -1,8 +1,8 @@
 <?php
+require "../../check.php";
 # Set's email and password into the values
 $email = $_POST["email1"];
 $password = $_POST["password1"];
-
 if(empty($email) || empty($password)) { # If empty
     header("Location: ../login.php?error=nodata"); # it throws you back with an error
 } else {

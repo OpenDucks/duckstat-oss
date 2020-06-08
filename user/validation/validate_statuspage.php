@@ -1,5 +1,5 @@
 <?php
-
+require "../../check.php";
 // Name for every status
 $status1_name = $_POST["status1_name"];
 $status2_name = $_POST["status2_name"];

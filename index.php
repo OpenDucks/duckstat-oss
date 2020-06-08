@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?php
 
+require "check.php";
+
 # Checks that the files exist, if not, it throws an error and stops the script
 require "user/validation/app.php";
 require "user/validation/app1.php";

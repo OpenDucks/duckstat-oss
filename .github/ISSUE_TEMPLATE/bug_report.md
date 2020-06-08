@@ -34,5 +34,13 @@ If applicable, add screenshots to help explain your problem.
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
 
+ **Software (please complete the following information)**
+ - OS: [e.g. Windows]
+ - Webserver: [e.g. Apache2.4]
+ - Version: [See "VERSION" file, e.g. "v1.2.0.1-r.oss"]
+
+ - Errorcode: [Leave blank if not given]
+ - Errormessage: [Leave blank if not given]
+
 **Additional context**
 Add any other context about the problem here.

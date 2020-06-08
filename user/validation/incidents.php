@@ -1,5 +1,5 @@
 <?php
-
+require "../../check.php";
 # Sets the incident in the following values
 
 $incident_title = $_POST["incident_title"];

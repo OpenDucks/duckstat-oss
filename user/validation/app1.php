@@ -1,5 +1,4 @@
 <?php
-
 # Reads the INI file
 $ini1 = parse_ini_file("app1.ini");
 

@@ -1,8 +1,7 @@
 <?php
-
 # Reads the INI File
 $ini = parse_ini_file("app.ini");
-$ds = $ini["ds"];
+$ds = $ini["description"];
 # Checks if "description" is set, if not it shows an error. If it is set, it sets the values
 if($ds == null) {
     echo "<p style='alert alert-danger'>An error occured</p>";

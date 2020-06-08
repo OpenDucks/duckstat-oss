@@ -1,4 +1,5 @@
 <?php
+#require "../../check.php";
 # Checks that you are logged in
 if(isset($_SESSION["email"]) ==  false) {
     header("Location: login.php?error=invalid");
