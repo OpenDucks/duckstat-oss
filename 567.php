@@ -71,4 +71,9 @@ if($ini["remove_session_error"] == "true") {
     session_destroy();
 };
 
+
+// DO NOT DELETE COPYRIGHT NOTICE BELOW
+
+/* DuckStat OSS by Duck Developing Studio and the OpenDuck Project */
+#  2020
 ?>

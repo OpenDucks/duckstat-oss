@@ -30,6 +30,29 @@ Step 4: Login and change the Statuspage Names
 
 Step 5: Enjoy!
 
+## PLUGINS!
+
+This Open-Source also allows you to add your own plugins to customize your page in the way you like it.
+
+### How to enable Plugins
+
+Head over to the `user/validation/app3.ini` and set "plugins" to "true".
+
+The script then automatically includes the plugin to every file it should be used. Since `check.php` is required in nearly every file, the plugin is available in every file.
+
+If you don't want to have the plugin on every page, go to the `check.php` file, line 109 and comment out (use #) line 109 to 112.
+
+Then you can use the `plugins.php` file in the main directory. It is the same as the function you just comment out, but you decide if you want to include it or not. If you want the plugins on several pages only, add the following to each of the files:
+
+```
+
+include_once "plugin_introduction.php";
+
+```
+
+For Developers and Plugin creators, please head over to the `API_DOCUMENTATION.md`-file.
+
+
 ## FAQ/Others
 
 This section is to answer questions and other stuff!

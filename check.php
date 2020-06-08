@@ -7,6 +7,8 @@ $version_f = file('VERSION'); # reads
 $host = $_SERVER["HTTP_HOST"]; # server adress
 $lc = dirname(__FILE__) . "/";
 
+$plugin_file = parse_ini_file("user/validation/app3.ini");
+
 
 $time = date("d.m.Y | H:i"); 
 
@@ -95,4 +97,22 @@ foreach($variables as $var) {
         
     };
 };
+
+/*
+
+    The Code below checks: If "plugins" inside the app3.ini is set to "true", if yes
+    it will load all plugins, if not, it will do nothing.
+
+
+*/
+
+if($plugin_file["plugins"] == "true") {
+    include_once "plugin_introduction.php";
+    load_plugins();
+};
+
+// DO NOT DELETE COPYRIGHT NOTICE BELOW
+
+/* DuckStat OSS by Duck Developing Studio and the OpenDuck Project */
+#  2020
 ?>
