@@ -4,6 +4,7 @@ DuckStat OSS is a Open-Source Version of DuckStat by Duck Developing Studio.
 The Open-Source Project is developed by OpenDuck.
 
 Feel free to contribute to this Project!
+
 Join the OpenDucks Discord Server: https://discord.gg/v6dCJdB!
 
 ## Features
